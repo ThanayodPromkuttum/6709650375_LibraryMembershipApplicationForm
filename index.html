@@ -8,25 +8,45 @@
 <body>
     <form action = "index.php" method = "post">
         <label for = "ชื่อ">ชื่อ :</label>
-        <input type = "text" id = "ชื่อ" minlength="2" maxlength="20" placeholder="ชื่อ" >
+        <input type = "text" id = "ชื่อ" minlength="2" maxlength="20" placeholder="ชื่อ" required>
         
         <br><label for = "นามสกุล">นามสกุล :</label>
-        <input type = "text" id = "นามสกุล" minlength="2" maxlength="20" placeholder="นามสกุล" >
+        <input type = "text" id = "นามสกุล" minlength="2" maxlength="20" placeholder="นามสกุล" required>
 
         <br><label for = "Firstname(EN)">Firstname(EN) :</label>
-        <input type = "text" id = "Firstname(EN)" minlength="2" maxlength="20" placeholder="Firstname(EN)" >
+        <input type = "text" id = "Firstname(EN)" minlength="2" maxlength="20" placeholder="Firstname(EN)"required>
 
         <br><label for = "Lastname(EN)">Lastname(EN) :</label>
-        <input type = "text" id = "Lastname(EN)" minlength="2" maxlength="20" placeholder="Lastname(EN)" >
+        <input type = "text" id = "Lastname(EN)" minlength="2" maxlength="20" placeholder="Lastname(EN)" required>
 
         <br><label for = "เพศ">เพศ :</label>
-
         <input type = "radio" id = "ชาย" value="ชาย" name = "เพศ">
         <label for = "ชาย">ชาย</label>
         <input type = "radio" id = "หญิง" value="หญิง" name = "เพศ">
         <label for = "หญิง">หญิง</label>
         <input type = "radio" id = "อื่นๆ" value="อื่นๆ" name = "เพศ">
         <label for = "อื่นๆ">อื่นๆ</label>
+
+        <br><label for = "รหัสนักศึกษา">รหัสนักศึกษา :</label>
+        <input type = "text" id = "รหัสนักศึกษา" minlength="2" maxlength="10" placeholder="รหัสนักศึกษา" required>
+
+        <br><label for = "คณะที่ศึกษา">คณะที่ศึกษา :</label>
+        <input type = "text" id = "คณะที่ศึกษา" minlength="2" maxlength="20" placeholder="คณะที่ศึกษา" required>
+
+        <br><label for = "ที่อยู่อีเมล (E-mail address)">ที่อยู่อีเมล (E-mail address) :</label>
+        <input type = "email" id = "ที่อยู่อีเมล (E-mail address)" minlength="2" maxlength="20" placeholder="E-mail" required>
+
+        <br><label for = "วันเดือนปีเกิด">วันเดือนปีเกิด :</label>
+        <input type = "date" id = "วันเดือนปีเกิด" minlength="2" maxlength="20" placeholder="วันเดือนปีเกิด" required>
+
+        <br><label for = "ประเภทของหนังสือที่สนใจ">ประเภทของหนังสือที่สนใจ :</label>
+        <input type = "text" id = "ประเภทของหนังสือที่สนใจ" minlength="2" maxlength="10" placeholder="ประเภทของหนังสือที่สนใจ" required>
+
+        <br><label for = "yesno">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่ :</label>
+        <input type = "radio" id = "รับ" value="รับ" name = "yesno">
+        <label for = "รับ">รับ</label>
+        <input type = "radio" id = "ไม่รับ" value="ไม่รับ" name = "yesno">
+        <label for = "ไม่รับ">ไม่รับ</label>
     </form>
 
 </body>
