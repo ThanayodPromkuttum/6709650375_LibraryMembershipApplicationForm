@@ -6,7 +6,7 @@ body {
 
 .contactbox {
     width: 600px;
-    background-color: antiquewhite;
+    background:linear-gradient(45deg,rgb(244, 232, 185),rgb(255, 255, 255));
     box-shadow: 0 0 20px 0 #999;
     top: 50%;
     left: 50%;
@@ -16,4 +16,10 @@ body {
 
 form{
     margin: 45px;
+}
+
+h1{
+    font-size: 50px;
+    -webkit-text-stroke: 3px rgb(250, 218, 114);
+    color: transparent;
 }
